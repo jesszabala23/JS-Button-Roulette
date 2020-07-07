@@ -1,0 +1,42 @@
+* {
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    color: blue;
+}
+h3 {
+    color: blue;
+}
+.box1 {
+    height: 220px;
+    width: 220px;
+    background-color: orchid;
+    border-style: dashed;
+    border-width: 6px;
+    border-color: lime;
+    margin: 20px;
+}
+.box2 {
+    height: 220px;
+    width: 220px;
+    background-color: crimson;
+    border-style: double;
+    border-color: blue;
+    border-width: 12px;
+    margin: 20px;
+}
+.box3 {
+    height: 220px;
+    width: 220px;
+    background-color: seagreen;
+    border-style: dotted;
+    border-color: coral;
+    border-width: 10px;
+    margin: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 240px 240px 220px;
+    align-content: center;
+  }
