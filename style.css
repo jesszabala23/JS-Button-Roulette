@@ -35,8 +35,3 @@ h3 {
     border-width: 10px;
     margin: 20px;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: 240px 240px 220px;
-    align-content: center;
-  }
